@@ -38,7 +38,7 @@ Your job is to explain, for each pair of programs, the fundamental cause of the 
 
 You can use any tool you want to investigate the program, but be careful about the order of hypothesis, prediction, and experiment. If you did your experiments before you came up with the final hypothesis, you've violated the principle, and are more likely to end up with an invalid hypothesis.
 
-First off, clone this repository into your working directory. 
+First off, clone this repository into your working directory, and run Make
 
 ### one vs. one_opt
 
