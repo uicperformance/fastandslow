@@ -56,27 +56,22 @@ First off, clone this repository into your working directory.
 
 ### array packed vs. 64-byte spread
 
-Use the `cachestress` program, to run these two commands:
+In the following two exercizes, you may want to rely on your knowledge from CS261, or read up on how CPU caches work. We'll also be covering this in class soon. Use the `cachestress` program, to run these two commands:
 
-- `cachestress -s 1048576 -i 1`
-- `cachestress -s 1048676 -i 64`
+- `cachestress -s 1073741824 -i 1`
+- `cachestress -s 1073741824 -i 64`
 
-The 64-byte interval version significantly slower than the 1 byte version, even though they perform the same number of operations. Describe your hypothesis and what it is based on, make falsifiable predictions, and report how you tested these predictions. *Hint: what happens when you change the size? Performance counters can make a direct measurement, but can you validate your hypothesis with just timing measurements?*
+The 2048-byte interval version significantly slower than the 1 byte version, even though they perform the same number of operations. Describe your hypothesis and what it is based on, make falsifiable predictions, and report how you tested these predictions. *Hint: what happens when you change the size? Performance counters can make a direct measurement, but can you validate your hypothesis with just timing measurements?*
 
 ### larger spreads are slower, then faster again!
 
 Now try this little bash script on the command line:
 
-`for((i=1;i<1000000;i*=2)); do ./cachestress -s 1048576 -i $i; done`
-
+`for((i=1;i<1000000;i*=2)); do ./cachestress -s 1073741824 -i $i; done`
 
 It runs cachestress for a range of steps, where the execution time grows substantially up to some step size (4096 on my machines), then shrinks again eventually reaching the same speed as step size 1.
 
 For this part, propose two falsifiable hypotheses. One hypothesis explaining why cachestress slows down as the step size increases. And a second hypothesis explaining how it speeds up again for even larger step sizes. For both hypotheses, describe an experiment and show an outcome that matches the prediction.
-
-### optional, open question: 128-byte steps are faster than 64
-
-On pages, with the 1M size above, 128-byte intervals are consistently faster than both 64-byte and 256-byte intervals. Form a falsifiable hypothesis explaining this phenomenon, and demonstrate its predictive value by experiment.
 
 ### Turn-in instructions
 
