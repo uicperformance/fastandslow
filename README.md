@@ -80,11 +80,13 @@ On pages, with the 1M size above, 128-byte intervals are consistently faster tha
 
 ### Turn-in instructions
 
-Similar to the previous homework, turn-in is by email to `jakob@uic.edu`. Please include the following for each part above (in bulleted, easily readable form please!):
+If you would like feedback, you may post your hypotheses on Piazza. Please mark your post with "spoilers", so that others can choose to avoid reading yours before doing their own work. This may lead to some interesting discussion. I will participate in the discussion, but feel free to chime in on your own, on others' work.
+
+Include the following, clearly labeled with which part you are responding to (in bulleted, easily readable form please!):
 
 - Your hypothesis explaining the observed performance difference.
 - Your falsifiable prediction based on the hypothesis.
 - Your experiment, meant to validate the prediction.
 - The outcome of the experiment.
 
-If you went through several rounds of the process before deciding on the hypothesis you turned in, feel free to include any prior hypotheses as well. As a reminder, the course grade is in no way impacted by your assignment turn-in. Use this turn-in as an opportunity to get feedback on your hypotheses, predictions, and experiments. Turning in something not based on your own work, or something not arrived at through the scientific process outlined above, would be pointless. Don't waste your time and mine.
+If you went through several rounds of the process before deciding on the hypothesis you turned in, feel free to include any prior failed hypotheses as well. As a reminder, the course grade is in no way impacted by your assignment turn-in. Use this turn-in as an opportunity to get feedback on your hypotheses, predictions, and experiments. Turning in something not based on your own work, or something not arrived at through the scientific process outlined above, would be pointless. Don't waste your time and that of others.
