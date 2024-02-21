@@ -67,7 +67,7 @@ The 2048-byte interval version significantly slower than the 1 byte version, eve
 
 Now try this little bash script on the command line:
 
-`for((i=1;i<10000000;i*=2)); do ./cachestress -s 1073741824 -i $i; done`
+`for((i=1;i<100000000;i*=2)); do ./cachestress -s 1073741824 -i $i; done`
 
 It runs cachestress for a range of steps, where the execution time grows substantially up to some step size (4096 on my machines), then shrinks again eventually reaching the same speed as step size 1.
 
