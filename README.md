@@ -1,4 +1,4 @@
-# CS463 Homework 2: Diagnosing Performance Differences
+# CS463: Diagnosing Performance Differences
 
 ## Preliminaries: The Scientific Process
 
