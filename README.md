@@ -69,7 +69,7 @@ Now try this little bash script on the command line:
 
 `for((i=1;i<100000000;i*=2)); do ./cachestress -s 1073741824 -i $i; done`
 
-It runs cachestress for a range of steps, where the execution time grows substantially up to some step size (4096 on my machines), then shrinks again eventually reaching the same speed as step size 1.
+It runs cachestress for a range of steps, where the execution time grows substantially up to some step size (131072 on my machines), then shrinks again eventually reaching the same speed as step size 1.
 
 For this part, propose two falsifiable hypotheses. One hypothesis explaining why cachestress slows down as the step size increases. And a second hypothesis explaining how it speeds up again for even larger step sizes. For both hypotheses, describe an experiment and show an outcome that matches the prediction.
 
