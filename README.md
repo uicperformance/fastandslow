@@ -75,7 +75,9 @@ For this part, propose two falsifiable hypotheses. One hypothesis explaining why
 
 ### Turn-in instructions
 
-If you would like feedback, you may post your hypotheses on Piazza. Please mark your post with "spoilers", so that others can choose to avoid reading yours before doing their own work. This may lead to some interesting discussion. I will participate in the discussion, but feel free to chime in on your own, on others' work.
+If you would like feedback, you may post your hypotheses on Piazza. Please mark your post with "spoilers", so that others can choose to avoid reading yours before doing their own work. 
+(To avoid seeing spoilers on piazza, use the search function with "-spoilers".)
+This may lead to some interesting discussion. I will participate in the discussion, but feel free to chime in on your own, on others' work.
 
 Include the following, clearly labeled with which part you are responding to (in bulleted, easily readable form please!):
 
