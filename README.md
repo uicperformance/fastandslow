@@ -61,7 +61,7 @@ In the following two exercizes, you may want to rely on your knowledge from CS26
 - `cachestress -s 1073741824 -i 1`
 - `cachestress -s 1073741824 -i 64`
 
-The 2048-byte interval version significantly slower than the 1 byte version, even though they perform the same number of operations. Describe your hypothesis and what it is based on, make falsifiable predictions, and report how you tested these predictions. *Hint: what happens when you change the size? Performance counters can make a direct measurement, but can you validate your hypothesis with just timing measurements?*
+The 64-byte interval version significantly slower than the 1 byte version, even though they perform the same number of operations. Describe your hypothesis and what it is based on, make falsifiable predictions, and report how you tested these predictions. *Hint: what happens when you change the size? Performance counters can make a direct measurement, but can you validate your hypothesis with just timing measurements?*
 
 ### larger spreads are slower, then faster again!
 
